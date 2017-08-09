@@ -25,6 +25,7 @@ body {
     color: white;
     display: inline-block;
     transition: 0.3s;
+
 }
 
 .sidenav a:hover, .offcanvas a:focus{
@@ -74,7 +75,7 @@ p1 {
     padding-left: 15px;
     padding-top: 15px;
     padding-right: 0px;
-
+    margin-top: 10px;
 }
 .evaluation-image{
     height: 30px;
