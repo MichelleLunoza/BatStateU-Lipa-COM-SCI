@@ -1,0 +1,30 @@
+/**h1{
+	padding-left: 60px;
+	margin-bottom: 0em;
+}
+
+p{
+	text-align: justify;
+	padding: 80px;
+	margin-top: 0em;
+}
+  **/
+
+ /**  border-bottom: dashed #778899 ;
+    border-width: 1px;
+    margin-right: 80px;
+    margin-left: 80px; */
+
+.columns{
+	column-count: 2;
+	column-gap: 3em;
+	padding: 80px;
+	text-align: justify;
+	display: inline-block;
+	column-width: 10em;
+}
+
+
+
+
+
