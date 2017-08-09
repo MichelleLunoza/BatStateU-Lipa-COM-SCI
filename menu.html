@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head>
-<script src="/home/michellelunoza/Documents/Untitled Folder/menu.js"></script>
-<link rel="stylesheet" href="/home/michellelunoza/Documents/Untitled Folder/menu.css">
-</head>
+	<head>
+		<script src="/home/katleen/Documents/BatStateU-Lipa-COM-SCI/menu.js"></script>
+		<link rel="stylesheet" href="/home/katleen/Documents/BatStateU-Lipa-COM-SCI/menu.css">
+	</head>
 <body>
 <div id="RightSideNav" class="sidenav">
-<img src="/home/michellelunoza/Documents/Untitled Folder/header.jpg" class="header">
-  <a href="javascript:void(0)" class="Back" onclick="BackButton()">Back</a></br>
-  <a href="#">Announcements</a>
-  <a href="#">Evaluations</a>
-  <a href="#">Graduate Tracer</a>
-  <a href="#">About</a>
+	<img src="/home/katleen/Documents/BatStateU-Lipa-COM-SCI/header.jpg" class="header">
+		<a href="javascript:void(0)" class="Back" onclick="BackButton()">Back</a></br>
+  		<a href="#">Announcements</a>
+  		<a href="#">Evaluations</a>
+  		<a href="#">Graduate Tracer</a>
+  		
+  		<div class="dropdown">
+  		<a href="#">About</a>
+  			<div class="dropdown-content">
+  				<a href="#">Facilities</a>
+  				<a href="#">Mission and Vision</a>
+  			</div>
+  		</div>
 
-  <img src="/home/michellelunoza/Documents/Untitled Folder/key.png" class="key">
+  <img src="/home/katleen/Documents/BatStateU-Lipa-COM-SCI/key.png" class="key">
   <p1> <strong>User Login</strong></p1> </img>
- <div id="textboxes"> 
-   <form action="#">
-   <input type="text" id="UserName" name="UserName" placeholder="Username"></form>
-   <form action="#">
-   <input type="text" id="Password" name="Password" placeholder="Password"></form>
-<div id="LoginButton">
-   <button class="button"><strong>Login</strong></button>
-</div>
-</div>
+ 	
+ 	<div id="textboxes"> 
+  		<form action="#">
+   		<input type="text" id="UserName" name="UserName" placeholder="Username"></form>
+   	
+   		<form action="#">
+   		<input type="text" id="Password" name="Password" placeholder="Password"></form>
+	
+		<div id="LoginButton">
+   			<button class="button"><strong>Login</strong></button>
+		</div>
+	</div>
 </div>
 
 <div id="main">
   <span style= "font-size:25px;cursor:pointer" onclick="openNav()">&#9776;</span>
-
-</div>
 </div>
 </body>
 </html>
