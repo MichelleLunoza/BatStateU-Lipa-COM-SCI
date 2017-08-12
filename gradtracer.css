@@ -1,0 +1,31 @@
+.mainheader{
+	/*do not delete*/
+}
+
+.header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+    width: 100%;
+}
+
+/*
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+div{
+	padding: 0px;
+	margin: 0px;
+}
+
+.container1{
+	background-image: url("/home/katleen/Documents/BatStateU-Lipa-COM-SCI/BG.png");
+}
+
+.container2{
+	background-image: url("/home/katleen/Documents/BatStateU-Lipa-COM-SCI/BG for Description.png");
+}
+*/

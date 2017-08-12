@@ -1,3 +1,8 @@
+/** menu design */
+
+/* end of menu design*/
+
+/*about page design*/
 body{
 	font-family: "Century Gothic"; /* My font's not working, please check if it's working in yours*/
 }
@@ -93,3 +98,4 @@ ol li{
 	font-size: 20px;
 	margin-left: 1em;
 }
+
