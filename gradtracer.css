@@ -20,7 +20,7 @@ body {
 
 .whole {
 	column-count: 1;
-	padding-top: 200px;
+	padding-top: 150px;
 	display: inline-block;
 }
 
@@ -35,7 +35,7 @@ ul li{
 }
 
 .para-content{
-	font-size: 20px;
+	font-size: 15px;
 	text-align: justify;
 	padding: 0px 60px 0px 430px; /**top, right, bottom, left */
 }

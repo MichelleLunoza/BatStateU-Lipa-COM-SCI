@@ -8,12 +8,12 @@ body{
 }
 
 h1{
-	font-size: 25px;
-	color: #191970;
+	font-size: 20px;
+	color: #182c3d ;
 }
 
 p{
-	font-size: 20px;
+	font-size: 15px;
 	text-indent: 25px;
 }
 
@@ -31,7 +31,7 @@ p{
 
 .first-column{
 	column-count: 1;
-	padding: 200px 80px 0px 80px; /**top, right, bottom, left */
+	padding: 150px 80px 0px 80px; /**top, right, bottom, left */
 	text-align: justify;
 	display: inline-block;
 }
@@ -57,7 +57,7 @@ p{
 .border{
 	border-bottom: dashed #778899;
     border-width: 1px;
-    padding: 0px 80px 350px 80px; /**top, right, bottom, left */
+    padding: 0px 80px 230px 80px; /**top, right, bottom, left */
 }
 
 .border2{
@@ -75,16 +75,16 @@ p{
 ul li{
 	list-style: none;
 	display: inline-block;
-	color: #191970;
+	color: #182c3d ;
 	font-style: italic;
 }
 
 ul{
-	text-align: justify;
+	text-align: center;
 	border-top: 1px dashed #778899;
 	border-bottom: 1px dashed #778899;
 	word-spacing: 20px;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 
@@ -95,7 +95,7 @@ ul{
 }
 
 ol li{
-	font-size: 20px;
+	font-size: 15px;
 	margin-left: 1em;
 }
 
