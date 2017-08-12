@@ -14,12 +14,13 @@ body {
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 5px 100% 10px 20px;
     text-decoration: none;
     font-size: 20px;
     color: white;
     display: inline-block;
     transition: 0.3s;
+
 
     /*added*/ 
     border-bottom: 1.5px solid #008080; /*Menu dividers*/
@@ -97,37 +98,13 @@ p1 {
     padding-top: 40px;
 
 }
-.announcement-image{
+.icon-image{
     height: 30px;
     width: 25px;
-    padding-left: 15px;
-    padding-top: 15px;
+    padding-left: 10px;
     padding-right: 0px;
-    margin-top: 10px;
-}
-.evaluation-image{
-    height: 30px;
-    width: 28px;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-right: 0px;
-
-}
-.graduate-image{
-    height: 35px;
-    width: 30px;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-right: 0px;
-
-}
-.about-image{
-    height: 30px;
-    width: 25px;
-    padding-left: 15px;
-    padding-right: 0px;
-    padding-top: 15px;
-
+    margin-top: 20px;
+    float: left;
 }
 
 input {
