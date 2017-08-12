@@ -1,0 +1,30 @@
+.mainheader{
+	/*do not delete*/
+}
+
+.header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+    width: 100%;
+    height: 22%;
+}
+
+body {
+	background: url("/home/joshua/Documents/DevKat/BG.png");
+	background-position: top right, top left;
+	background-repeat: no-repeat, no-repeat;
+	background-size: 1575px 700px, cover;
+}
+.container{
+	width: 700px;
+	background-color: rgba(211,211,211,0.9);
+	opacity: 0.9;
+}
+
+.content{
+	font-size: 20px;
+	text-align: justify;
+	padding: 200px 250px 0px 250px; /**top, right, bottom, left */
+}
