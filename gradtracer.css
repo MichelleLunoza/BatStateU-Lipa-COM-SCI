@@ -10,22 +10,32 @@
     width: 100%;
 }
 
-/*
+
 body {
-	padding: 0px;
-	margin: 0px;
+	background: url("/home/katleen/Documents/BatStateU-Lipa-COM-SCI/BG for Description.png"), url("/home/katleen/Documents/BatStateU-Lipa-COM-SCI/BG.png");
+	background-position: top right, top left;
+	background-repeat: no-repeat, no-repeat;
+	background-size: 570px 1000px, cover;
 }
 
-div{
-	padding: 0px;
-	margin: 0px;
+.whole {
+	column-count: 1;
+	padding-top: 200px;
+	display: inline-block;
 }
 
-.container1{
-	background-image: url("/home/katleen/Documents/BatStateU-Lipa-COM-SCI/BG.png");
+.buttons {
+	float: left;
 }
 
-.container2{
-	background-image: url("/home/katleen/Documents/BatStateU-Lipa-COM-SCI/BG for Description.png");
+ul li{
+	list-style: none;
+	margin-bottom: 10px;
+	margin-left: -20px;
 }
-*/
+
+.para-content{
+	font-size: 20px;
+	text-align: justify;
+	padding: 0px 60px 0px 430px; /**top, right, bottom, left */
+}
