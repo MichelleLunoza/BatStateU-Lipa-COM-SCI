@@ -1,0 +1,5 @@
+body {
+    transition: background-color .5s;
+  	background-size:     cover;                     
+    background-repeat:   no-repeat;
+}
