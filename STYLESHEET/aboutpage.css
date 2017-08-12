@@ -1,0 +1,101 @@
+/** menu design */
+
+/* end of menu design*/
+
+/*about page design*/
+body{
+	font-family: "Century Gothic"; /* My font's not working, please check if it's working in yours*/
+}
+
+h1{
+	font-size: 20px;
+	color: #182c3d ;
+}
+
+p{
+	font-size: 15px;
+	text-indent: 25px;
+}
+
+.mainheader{
+	/*do not delete*/
+}
+
+.header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+    width: 100%;
+}
+
+.first-column{
+	column-count: 1;
+	padding: 150px 80px 0px 80px; /**top, right, bottom, left */
+	text-align: justify;
+	display: inline-block;
+}
+
+.second-column{
+	column-count: 1;
+	padding: 15px 80px 0px 80px; /**top, right, bottom, left */
+	text-align: justify;
+	display: inline-block;
+}
+
+.col-one{
+	float: left;
+	width: 45%;
+
+}
+
+.col-two{
+	float: right;
+	width: 45%;
+}
+
+.border{
+	border-bottom: dashed #778899;
+    border-width: 1px;
+    padding: 0px 80px 230px 80px; /**top, right, bottom, left */
+}
+
+.border2{
+	border-bottom: dashed #778899;
+    border-width: 1px;
+    padding: 0px 80px 0px 80px; /**top, right, bottom, left */
+}
+
+.UCV{
+	padding: 3px 80px 0px 80px; /**top, right, bottom, left */
+	text-align: justify;
+	display: inline-block;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+	color: #182c3d ;
+	font-style: italic;
+}
+
+ul{
+	text-align: center;
+	border-top: 1px dashed #778899;
+	border-bottom: 1px dashed #778899;
+	word-spacing: 20px;
+	font-size: 15px;
+}
+
+
+.PEO{
+	padding: 1px 80px 10px 80px; /**top, right, bottom, left */
+	text-align: justify;
+	display: inline-block;
+}
+
+ol li{
+	font-size: 15px;
+	margin-left: 1em;
+}
+
