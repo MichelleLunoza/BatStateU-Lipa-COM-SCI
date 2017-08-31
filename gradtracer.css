@@ -1,4 +1,4 @@
-.mainheader{
+.backgroundheader{
 	/*do not delete*/
 }
 
@@ -7,9 +7,65 @@
 	top: 0;
 	left: 0;
 	right: 0;
-    width: 100%;
+  width: 100%;
 }
 
+.CICS{
+   position: absolute;
+   top: 20px;
+   left: 85px;
+  }
+
+.cicslogo{
+  width: 17%;
+  height: 22%;
+  max-width: 100%;
+  max-height: 100%
+}
+
+.firsttext{
+   position: absolute;
+   top: 23px;
+   width: 100%;
+   left: -160px;
+}
+
+.ftext{
+  font-family: "Copperplate Gothic Light Regular";
+  color: #182d3d;
+  text-align: center;
+}
+
+h1{
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+} 
+
+h2{
+  font-size: 45px;
+  margin-top: 0;
+  margin-bottom: 0; 
+}
+
+.secondtext{
+   position: absolute;
+   top: 45px;
+   width: 100%;
+   right: 70px;
+}
+
+.stext{
+  font-family: "Copperplate Gothic Light Regular";
+  color: #182d3d;
+}
+
+h3{
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: right; 
+}
 
 body {
 	background: url("/home/katleen/Documents/BatStateU-Lipa-COM-SCI/BG for Description.png"), url("/home/katleen/Documents/BatStateU-Lipa-COM-SCI/BG.png");
