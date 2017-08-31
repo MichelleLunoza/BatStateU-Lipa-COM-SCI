@@ -1,14 +1,89 @@
-.mainheader{
-
+.backgroundheader{
+    /*do not delete*/
 }
 
 .header{
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-    width: 100%;
-    height: 23%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  width: 100%;
+}
+
+.CICS{
+   position: absolute;
+   top: 20px;
+   left: 85px;
+  }
+
+.cicslogo{
+  width: 17%;
+  height: 22%;
+  max-width: 100%;
+  max-height: 100%
+}
+
+.firsttext{
+   position: absolute;
+   top: 23px;
+   width: 100%;
+   left: -160px;
+}
+
+.ftext{
+  font-family: "Copperplate Gothic Light Regular";
+  color: #182d3d;
+  text-align: center;
+}
+
+h2{
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+} 
+
+h3{
+  font-size: 45px;
+  margin-top: 0;
+  margin-bottom: 0; 
+}
+
+.secondtext{
+   position: absolute;
+   top: 35px;
+   width: 100%;
+   right: 390px;
+}
+
+.stext{
+  font-family: "Copperplate Gothic Light Regular";
+  color: #182d3d;
+}
+
+h4{
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: right; 
+}
+
+.thirdtext{
+   position: absolute;
+   top: 58px;
+   width: 100%;
+   right: 60px;
+}
+
+.ttext{
+  font-family: "Copperplate Gothic Light Regular";
+  color: #182d3d;
+}
+
+h5{
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: right; 
 }
 
 body {
